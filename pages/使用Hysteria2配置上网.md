@@ -1,9 +1,11 @@
-- {{renderer :tocgen2}}
+tags:: hysteria, 科学上网
+
 - ## 官网
 	- [Home - Hysteria 2](https://v2.hysteria.network/)
 - ## 服务端配置
 	- 一般配置在Linux服务器上
 	- ### 安装Hysteria2
+	  id:: 655c55fe-bb6e-4881-80d9-de3cee348a63
 		- 安装或升级到最新版本：
 			- ```bash
 			  bash <(curl -fsSL https://get.hy2.sh/)
@@ -20,6 +22,7 @@
 		- 步骤参考：[[使用acme.sh申请证书]]
 		- 申请成功后，会产生两个文件：
 			- 一个证书文件`*.cer`
+			  id:: 655ec0ac-31e4-46e5-840a-dcbcce9aca45
 			- 一个密钥文件`*.key`
 		- 记住这两个文件存放的位置，后面配置需要用到
 	- ### 获取证书的pinSHA256
