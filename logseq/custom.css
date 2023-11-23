@@ -1,0 +1,6 @@
+.ls-block[haschild] > div > .block-content-wrapper::before {
+      left: -13px;
+}
+.ls-block > div > div.items-center::before {
+    right: 10px !important;
+}
